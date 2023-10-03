@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -10,11 +9,25 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
+
+      <iframe
+        title="Inline Frame Example"
+        width="1000"
+        height="2000"
+        src={project.link}
+      ></iframe>
+
       <p>
-        <b>Skills:</b> {project.skills}
+        <b>Or you can visit </b>
+        <a
+          className="linkline"
+          href={project.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
       </p>
-      <GitHubIcon />
     </div>
   );
 }

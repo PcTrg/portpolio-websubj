@@ -34,7 +34,7 @@
   color: white;
 }
 
-.skills {
+.link {
   font-size: 35px;
   width: 100%;
   display: flex;
@@ -43,11 +43,11 @@
   align-items: center;
 }
 
-.skills h1 {
+.link h1 {
   color: #3e497a;
 }
 
-.skills .list {
+.link .list {
   list-style: none;
   width: 60%;
 }
@@ -67,14 +67,14 @@
     width: 80%;
   }
 
-  .skills {
+  .link {
     text-align: center;
   }
   .list {
     padding: 0;
   }
 
-  .skills h2 {
+  .link h2 {
     font-size: 30px;
   }
 }
