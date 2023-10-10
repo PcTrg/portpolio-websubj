@@ -9,14 +9,6 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-
-      <iframe
-        title="Inline Frame Example"
-        width="1000"
-        height="2000"
-        src={project.link}
-      ></iframe>
-
       <p>
         <b>Or you can visit </b>
         <a
