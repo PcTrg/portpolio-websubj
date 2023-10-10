@@ -13,6 +13,12 @@
   color: white;
 }
 
+.links .elements:hover {
+  text-decoration: underline;
+  text-decoration-color: #e9d35b;
+  text-underline-offset: 8px;
+}
+
 .navbar a {
   color: white;
   text-decoration: none;
